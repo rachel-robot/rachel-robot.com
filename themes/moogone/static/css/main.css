@@ -1,0 +1,9 @@
+@font-face {
+    font-family: MyFont;
+    src: url(../fonts/MyFont.ttf);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'MyFont', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
