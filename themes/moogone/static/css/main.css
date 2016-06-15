@@ -7,3 +7,77 @@ h1,h2,h3,h4,h5,h6 {
   font-family: 'MyFont', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+
+h1 {
+  font-size: 40px;
+  padding: 0 20px;
+}
+
+h1:first-child {
+  margin-top: 0px;
+}
+
+/* Page header */
+.header-page {
+  font-family: 'MyFont', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 6em;
+  line-height: 145px;
+  text-align: center;
+  margin: 18px 0;
+}
+
+.header-logo {
+  width: 140px;
+  height: 141px;
+  background-image: url(../img/robot-logo.png);
+  display: inline-block;
+  margin-bottom: -40px;
+}
+
+@media (max-width: 768px) {
+  .header-page {
+    font-size: 36px;
+    line-height: 70px;
+    margin: 5px 0;
+  }
+  
+  .header-logo {
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    margin-bottom: -20px;
+  }
+}
+
+/* Navigation */
+nav {
+  margin-bottom: 20px;
+}
+
+ul.nav {
+  text-align: center;
+  background: #3f8598;
+  font-family: 'MyFont', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+ul.nav li {
+  display: inline-block;
+}
+
+ul.nav li a {
+  font-size: 28px;
+  line-height: 28px;
+  color: white;
+  padding: 0 15px;
+}
+
+ul.nav li a:hover {
+  background-color: rgba(255, 255, 255, 0.27);
+}
+
+/* Article list */
+h2.post-title:first-child {
+  margin-top: 0;
+}
+
+/* Article */

@@ -4,27 +4,9 @@
   {{ partial "head.html" . }}
 
   <body>
+    {{ partial "header.html" . }}
 
     {{ partial "nav.html" . }}
-
-    <header class="header-section ">
-      <div class="intro-header no-img">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-              <div class="page-heading">
-                <h1>{{.Site.Title}}</h1>
-                {{if .Site.Params.subtitle}}
-                  <hr class="small">
-                  <span class="page-subheading">{{.Site.Params.subtitle}}</span>
-                {{end}}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
 
     <div role="main" class="container">
       <div class="row">
@@ -43,9 +25,9 @@
           	  {{ end }}
               </a>
 
-              <p class="post-meta">
+              <!-- <p class="post-meta">
                 Posted on {{ .Date.Format "January 2, 2006" }}
-              </p>
+              </p> -->
 
               <div class="post-entry">
                 {{ .Summary }}

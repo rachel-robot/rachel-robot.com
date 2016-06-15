@@ -9,6 +9,16 @@ theme = "moogone"
     weight = 1
 
 [[menu.main]]
-    name = "About"
+    name = "About Me"
     url = "/page/about/"
     weight = 2
+
+[[menu.main]]
+    name = "Teaching Philosophy"
+    url = "/page/teaching-philosophy/"
+    weight = 3
+
+[[menu.main]]
+    name = "Documents"
+    url = "/page/documents/"
+    weight = 4

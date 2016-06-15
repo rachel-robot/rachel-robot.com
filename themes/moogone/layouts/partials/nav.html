@@ -1,21 +1,10 @@
 <nav>
   <div class="main-navbar">
-    <ul class="nav navbar-nav">
+    <ul class="nav">
     {{ range .Site.Menus.main.ByWeight }}
-      {{ if .HasChildren }}
-        <li class="navlinks-container">
-          <a class="navlinks-parent" href="javascript:void(0)">{{ .Name }}</a>
-          <div class="navlinks-children">
-          {{ range .Children }}
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          {{ end }}
-          </div>
-        </li>
-      {{ else }}
         <li>
-        <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
+          <a title="{{ .Name }}" href="{{ .URL }}">{{ .Name }}</a>
         </li>
-      {{ end }}
     {{ end }}
     </ul>
   </div>
