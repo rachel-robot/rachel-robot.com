@@ -17,8 +17,3 @@ theme = "moogone"
     name = "Teaching Philosophy"
     url = "/page/teaching-philosophy/"
     weight = 3
-
-[[menu.main]]
-    name = "Documents"
-    url = "/page/documents/"
-    weight = 4

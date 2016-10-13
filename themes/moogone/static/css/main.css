@@ -41,7 +41,7 @@ h1:first-child {
     line-height: 70px;
     margin: 5px 0;
   }
-  
+
   .header-logo {
     width: 70px;
     height: 70px;
@@ -81,3 +81,10 @@ h2.post-title:first-child {
 }
 
 /* Article */
+
+article.post-preview p img, article.blog-post p img {
+  max-width: 400px;
+  max-height: 200px;
+  display: block;
+  margin: 1em auto;
+}
